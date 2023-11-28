@@ -668,7 +668,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>22</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -679,6 +679,7 @@
     <addaction name="Save_as_PDF"/>
     <addaction name="close"/>
     <addaction name="actionSave_as_Text"/>
+    <addaction name="actionVersion_1_0_3"/>
    </widget>
    <widget class="QMenu" name="menuMedia_Player">
     <property name="title">
@@ -1038,6 +1039,9 @@
    </property>
   </action>
   <action name="Upload_and_generate_Transcript">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
    <property name="text">
     <string>Upload and generate Transcript</string>
    </property>
@@ -1137,6 +1141,14 @@
   <action name="actionSave_as_XML">
    <property name="text">
     <string>Save as XML</string>
+   </property>
+  </action>
+  <action name="actionVersion_1_0_3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Version 1.0.3</string>
    </property>
   </action>
  </widget>
