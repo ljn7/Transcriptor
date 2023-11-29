@@ -1148,7 +1148,7 @@
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Version 1.0.3 </string>
+    <string>Version 3.0.0</string>
    </property>
   </action>
  </widget>
